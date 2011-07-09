@@ -2,9 +2,8 @@
  * jQuery Floating Widget plugin v0.9
  * http://terkel.jp/archives/2011/05/jquery-floating-widget-plugin/
  *
- * Copyright (C) 2011 Takeru Suzuki (http://terkel.jp/)
- * Licensed under a Creative Commons Attribution 2.1 Japan
- * http://creativecommons.org/licenses/by/2.1/jp/
+ * Copyright (c) 2011 Takeru Suzuki
+ * Dual licensed under the MIT and GPL licenses.
  */
 (function ($) {
     $.fn.floatingWidget = function () {
