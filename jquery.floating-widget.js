@@ -1,5 +1,5 @@
 /*
- * jQuery Floating Widget plugin v0.9.1t
+ * jQuery Floating Widget plugin v0.9.1
  * http://terkel.jp/archives/2011/05/jquery-floating-widget-plugin/
  *
  * Copyright (c) 2011 Takeru Suzuki
