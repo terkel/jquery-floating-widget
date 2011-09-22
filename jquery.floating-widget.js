@@ -1,5 +1,5 @@
 /*
- * jQuery Floating Widget plugin v0.9
+ * jQuery Floating Widget plugin v0.9.1t
  * http://terkel.jp/archives/2011/05/jquery-floating-widget-plugin/
  *
  * Copyright (c) 2011 Takeru Suzuki
@@ -12,12 +12,12 @@
                 $parent           = $this.offsetParent(),
                 $window           = $(window),
                 top               = $this.offset().top - parseFloat($this.css('marginTop').replace(/auto/, 0)),
-                bottom            = $parent.offset().top + $parent.height() - $this.outerHeight(true),
                 floatingClass     = 'floating',
                 pinnedBottomClass = 'pinned-bottom';
             if ($parent.height() > $this.outerHeight(true)) {
                 $window.scroll(function () {
-                    var y = $window.scrollTop();
+                    var y      = $window.scrollTop(),
+                        bottom = $parent.offset().top + $parent.height() - $this.outerHeight(true);
                     if (y > top) {
                         $this.addClass(floatingClass);
                         if (y > bottom) {

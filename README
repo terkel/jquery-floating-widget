@@ -1,4 +1,7 @@
-jQuery Floating Widget plugin v0.9
+jQuery Floating Widget plugin v0.9.1
 http://terkel.jp/archives/2011/05/jquery-floating-widget-plugin/
 
 Apple Store (http://store.apple.com/jp/configure/MC769J/A) のサイドバーのように、要素をウィンドウのスクロールに追従させる jQuery プラグインです。要素の動ける範囲を限定できます。
+
+v0.9.1
+親要素の高さが変化する場合に対応
